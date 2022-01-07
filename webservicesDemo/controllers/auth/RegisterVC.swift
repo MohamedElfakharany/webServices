@@ -25,7 +25,7 @@ class RegisterVC: UIViewController {
     @IBAction func registerPressed(_ sender: UIButton) {
         guard let name = nameTF.text?.trimmed , !name.isEmpty else {return}
         
-        guard let email = emailTF.text?.trimmed , !name.isEmpty else {return}
+        guard let email = emailTF.text?.trimmed , !email.isEmpty else {return}
         
         guard let password = passwordTF.text ,!password.isEmpty else {return}
         

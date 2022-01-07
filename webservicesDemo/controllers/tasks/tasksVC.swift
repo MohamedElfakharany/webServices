@@ -40,8 +40,6 @@ class tasksVC: UIViewController {
         
         let AddButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action:    #selector(HandleAdd))
         
-        
-        
         navigationItem.rightBarButtonItem = AddButton
         HandleRefresh()
     }
